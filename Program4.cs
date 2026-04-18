@@ -28,8 +28,8 @@ namespace ConsoleApplication
                 // If Until User Enters Invalid Value
                 while (numCoffeeBags < 1 || numCoffeeBags > 200)
                 {
-                    Console.WriteLine("Value Must Be Between 1 And 300!");
-                    Console.Write("Re-Enter Number Of Coffee Bags (1-200): ");
+                    Console.WriteLine("Value Must Be Between 1 And 400!");
+                    Console.Write("Re-Enter Number Of Coffee Bags (1-400: ");
                     numCoffeeBags = Int32.Parse(Console.ReadLine());
                 }
 
