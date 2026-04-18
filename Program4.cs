@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -71,7 +71,7 @@ namespace ConsoleApplication
                 // Print Bill
                 Console.WriteLine();
                 Console.WriteLine("--------------------------------------------");
-                Console.WriteLine("------------------- BILL -------------------");
+                Console.WriteLine("---------- Coffee Billing System -----------");
                 Console.WriteLine("--------------------------------------------");
                 Console.WriteLine("Customer Name: {0}", customerName);
                 Console.WriteLine("Number Of Coffee Bags: {0}", numCoffeeBags);
@@ -79,7 +79,7 @@ namespace ConsoleApplication
                 Console.WriteLine("Discount: {0:C}", discount);
                 Console.WriteLine("--------------------------------------------");
                 Console.WriteLine("Amount Payable: {0:C}", totalCost - discount);
-                Console.WriteLine("--------------------------------------------");
+                Console.WriteLine("Thank you for Purchase, " + customerName + "!");
 
 
 
